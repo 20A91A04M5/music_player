@@ -1,0 +1,151 @@
+h3 {
+    text-align: center;
+    background-color: rgb(247, 160, 98);
+    height: 30px;
+    padding-top: 2%;
+    margin: 2%;
+    border: 7px double green;
+    border-radius: 30px;
+}
+
+.hii audio {
+    background-color: crimson;
+}
+
+.hii h4 {
+    border: 3px solid black;
+    width: 300px;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+header {
+    background-color: aqua;
+    height: 30px;
+    padding-top: 2%;
+    text-align: center;
+    font-weight: bold;
+    margin: 2%;
+    border: 7px double orange;
+    border-radius: 30px;
+}
+
+.hii div {
+    display: block;
+}
+
+.container {
+    display: flex;
+    padding-left: 30px;
+    background-image: url("./marshall.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2%;
+    border: 7px double blue;
+    justify-content: space-around;
+}
+.hii2 h4 {
+    border: 3px solid black;
+    width: 300px;
+    background-color: aquamarine;
+    text-align: center;
+}
+.hii2 {
+    /* margin-left: 50%; */
+    padding-left: 80px;
+}
+.hii2 audio {
+    background-color: blue;
+}
+
+audio[controls] {
+    background-color: rgb(219, 104, 173);
+}
+
+.hii audio:hover {
+    background-color: red;
+}
+
+.hii2 audio:hover {
+    background-color: blue;
+}
+
+.container2 {
+    display: flex;
+    padding-left: 30px;
+    background-image: url("./restaurent.jpg");
+    background-size: cover;
+    margin: 2%;
+    border: 7px groove red;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+    justify-content: space-around;
+}
+
+.allsections h2:hover {
+    font-size: 30px;
+    color: red;
+    width: 200px;
+}
+h2{
+    text-align: center;
+    color: blue;
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 150px;
+}
+ul li:nth-child(2n){
+    list-style: upper-roman;
+    color: blue;
+    background-color: yellow;
+    margin: 5%;
+    border: 2px solid white;
+}
+ul li:nth-child(2n-1){
+    list-style-type: decimal;
+    color: red;
+    background-color: aqua;
+    margin: 5%;
+    border: 2px solid black;
+}
+#veg li:hover{
+    text-align: end;
+    font-size: 25px;
+    width: 200px;
+}
+#non li:hover{
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 25px;
+    width: 200px;
+}
+#non{
+    width: 200px;
+    font-weight: bold;
+}
+#veg{
+    width: 200px;
+    font-weight: bold;
+}
+#drinks{
+    width: 200px;
+    font-weight: bold;
+}
+#drinks li:hover{
+    text-align: center;
+    font-size: medium;
+    width: 200px;
+}
+#non li:nth-child(3){
+    background-color: rgb(237, 34, 68);
+    color: aqua;
+}
+#drinks li:nth-last-child(1){
+    background-color: rgb(216, 50, 78);
+    color: aqua;
+}
+#veg li:nth-child(1){
+    background-color: rgb(216, 50, 78);
+    color: aqua;
+}
